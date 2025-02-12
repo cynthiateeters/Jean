@@ -3,6 +3,13 @@
   "version": "1.3.0",
   "description": "A CLI tool that prints my name.",
   "main": "index.js",
+  "bin": {
+    "jean-schleppy": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint index.js"
@@ -11,19 +18,16 @@
     "type": "git",
     "url": "git+https://github.com/schleppyj1/Jean.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "command-line"
+  ],
   "author": "Jean Schleppy <g00299924@stu.raritanval.edu> (https://github.com/jeanschleppy)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/schleppyj1/Jean/issues"
   },
   "homepage": "https://github.com/schleppyj1/Jean#readme",
-  "bin": {
-    "jean-schleppy": "index.js"
-  },
-  "dependencies": {
-    "jean-schleppy": "^1.3.0"
-  },
   "devDependencies": {
     "@eslint/js": "^9.20.0",
     "eslint": "^9.20.0",
